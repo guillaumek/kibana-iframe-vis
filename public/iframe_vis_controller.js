@@ -1,6 +1,6 @@
 define(function(require) {
 
-  const module = require('ui/modules').get('kibana/iframe_vis', ['kibana']);
+  const module = require('ui/modules').get('kibana/kibana-iframe-vis', ['kibana']);
 
   module.controller('EcIframeVisController', function($scope, $element, $timeout, $sce) {
 
