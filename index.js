@@ -1,10 +1,10 @@
-module.exports = function (kibana) {
+module.exports = function(kibana) {
 
   return new kibana.Plugin({
 
     uiExports: {
       visTypes: [
-        'plugins/iframe_vis/iframe_vis'
+        'plugins/kibana-iframe-vis/iframe_vis'
       ]
     }
 
